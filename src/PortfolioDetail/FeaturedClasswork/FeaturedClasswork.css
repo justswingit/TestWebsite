@@ -1,0 +1,22 @@
+.featuredClasswork > h1 {
+    text-align: center;
+    font-size:    4rem;
+}
+.featuredClasswork > p {
+    text-align: center;
+    font-size:    2rem;
+}
+.featuredClasswork > hr{
+    color:rgb(4, 4, 255);
+    margin: auto;
+    width: 50rem;
+    height: 10px;
+    display: flex;
+    justify-items: center;
+    position: center;
+    border: relative;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(77, 27, 112, 0.504), rgb(107, 28, 28));
+    margin-top:   1rem;
+    margin-bottom:1rem;
+}

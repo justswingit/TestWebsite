@@ -1,0 +1,111 @@
+/* this gives the burger bar's alignment, 
+as well as the color in the back*/
+.navbar {
+    background-color: #000 ;
+    background-position: auto ;
+    height: 6vh;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+
+/*
+having the justify-content at `fixed` keeps the navbar on the left side, 
+following the typical website convention.
+*/
+.navbar-container {
+    display: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+    position: relative;
+}
+/*justify-content: center; this is commenting out, because there's no need for this to be here */
+
+/*Messes with the burger bar, the color is the top rail's color*/
+.menu-bars {
+    margin-left:1rem;   
+    margin-right: 1rem;           /*position of the burger bar*/
+    font-size: 2.5rem;
+    /*background-color: #fff ;*/   /*This is the background color of the cross*/
+    color: #611f2b; 
+    position: absolute;
+}
+
+/*
+The .nav-menu and .nav-menu.active are the two handles that 
+position the sidebar with the defined parameters.
+*/
+
+/*When the sidebar is deactivated*/
+.nav-menu {
+    background: linear-gradient(to top, #611f2b, #000000);
+    width: 15rem;
+    height: 100vh;
+    display: flex-start;
+    justify-content: flex-end; 
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    transition: 850ms;
+}
+
+/*When the sidebar is activated. */
+.nav-menu.active {
+    /*nav-left:       0%;*/
+    right:       -100%;
+    transition: 2000ms;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color:      #eae9e9; /**/
+    font-size:       18px;
+    width:            95%;
+    height:          100%;
+    display:         flex;
+    align-items:   center;
+    padding:       0 16px;
+    border-radius:    4px;
+    transition:     200ms;
+}
+
+.nav-text a:hover {
+    background-color: #ffffffc1;
+    color: #000;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+
+/*Right around where the cross is, no need to touch*/
+.navbar-toggle {
+    background-color: #000000;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+}
+
+span {
+    margin-left: 0.5rem;
+}
