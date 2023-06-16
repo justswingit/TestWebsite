@@ -12,6 +12,7 @@ function App() {
      <Navbar /> 
      <Routes>
       <Route path='/' exact />
+      <Redirect to='/'/>
      </Routes>
     </Router>    
     </>
