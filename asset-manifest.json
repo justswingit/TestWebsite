@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TestWebsite/static/css/main.94340d67.css",
-    "main.js": "/TestWebsite/static/js/main.1ff53c7a.js",
-    "static/media/PhysicsHeaderImage02.png": "/TestWebsite/static/media/PhysicsHeaderImage02.bcbeae5c597a1144d138.png",
-    "static/media/AboutHeaderImage01.JPG": "/TestWebsite/static/media/AboutHeaderImage01.b62887566d5799f3edb0.JPG",
-    "static/media/CroppedMilkyWay01.JPG": "/TestWebsite/static/media/CroppedMilkyWay01.62148dd310052d88120a.JPG",
-    "static/media/HomeHeaderImage01.jpeg": "/TestWebsite/static/media/HomeHeaderImage01.72d06975e66add94b5ac.jpeg",
-    "static/media/PortfolioHeaderImage01.jpeg": "/TestWebsite/static/media/PortfolioHeaderImage01.0a40229b3fe17741fa09.jpeg",
-    "static/media/MathHeaderImage01.png": "/TestWebsite/static/media/MathHeaderImage01.f3c5314719215a2834ea.png",
-    "static/media/MusicHeaderImage01.png": "/TestWebsite/static/media/MusicHeaderImage01.748a6cd86d2cb2039c3c.png",
-    "index.html": "/TestWebsite/index.html",
-    "main.94340d67.css.map": "/TestWebsite/static/css/main.94340d67.css.map",
-    "main.1ff53c7a.js.map": "/TestWebsite/static/js/main.1ff53c7a.js.map"
+    "main.css": "/NewSiteAttempt/static/css/main.4a05efc9.css",
+    "main.js": "/NewSiteAttempt/static/js/main.1ff53c7a.js",
+    "static/media/PhysicsHeaderImage02.png": "/NewSiteAttempt/static/media/PhysicsHeaderImage02.bcbeae5c597a1144d138.png",
+    "static/media/AboutHeaderImage01.JPG": "/NewSiteAttempt/static/media/AboutHeaderImage01.b62887566d5799f3edb0.JPG",
+    "static/media/CroppedMilkyWay01.JPG": "/NewSiteAttempt/static/media/CroppedMilkyWay01.62148dd310052d88120a.JPG",
+    "static/media/HomeHeaderImage01.jpeg": "/NewSiteAttempt/static/media/HomeHeaderImage01.72d06975e66add94b5ac.jpeg",
+    "static/media/PortfolioHeaderImage01.jpeg": "/NewSiteAttempt/static/media/PortfolioHeaderImage01.0a40229b3fe17741fa09.jpeg",
+    "static/media/MathHeaderImage01.png": "/NewSiteAttempt/static/media/MathHeaderImage01.f3c5314719215a2834ea.png",
+    "static/media/MusicHeaderImage01.png": "/NewSiteAttempt/static/media/MusicHeaderImage01.748a6cd86d2cb2039c3c.png",
+    "index.html": "/NewSiteAttempt/index.html",
+    "main.4a05efc9.css.map": "/NewSiteAttempt/static/css/main.4a05efc9.css.map",
+    "main.1ff53c7a.js.map": "/NewSiteAttempt/static/js/main.1ff53c7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.94340d67.css",
+    "static/css/main.4a05efc9.css",
     "static/js/main.1ff53c7a.js"
   ]
 }
